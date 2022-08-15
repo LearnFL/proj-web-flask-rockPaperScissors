@@ -1,7 +1,10 @@
 # Simple Flask App Rock Paper Scissors
 
+#### Purpose
+Built very fast, built for fun.
+
 #### Process
-Built with NodeJS and ExpressJS. 
+Built with Flask
 
 #### Coded by 
 Dennis Rotnov
