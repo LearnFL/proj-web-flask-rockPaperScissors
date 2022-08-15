@@ -1,5 +1,9 @@
 # Simple Flask App Rock Paper Scissors
 
+#### License
+Feel free to use the code but please keep Authorship Attribution.
+"This app was made by Dennis Rotnov"
+
 #### Purpose
 Built very fast, built for fun.
 
