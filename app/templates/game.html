@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid">
+   <div class="grid container text-center">
+      <div class="game-row-center row">
+
+        <div class="col1 col-lg-6 col-md-12">
+         <div class="card card-picture">
+            {% if computer_choice %}
+               <img src= "{{ url_for('static',filename = computer_choice) }}" class="card-img-top" alt="...">
+            {% else %}
+               <img src= "{{ url_for('static',filename = './images/favicon.ico') }}" class="card-img-top" alt="...">
+            {% endif %}
+            <div class="card-body">
+               {% if message %}
+                  <p class="card-text">{{ message }}</p>
+               {% else %}
+                  <p class="card-text">Let's find out who is going to win!</p>
+               {% endif %}
+            </div>
+         </div>
+        </div>
+        
+        <div class="col2 col-lg-6 col-md-12">
+         <div class="card-menu">
+            <form action="{{url_for('logic')}}" method="POST">
+               <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><button name="choice" value="rock" type="submit" class="btn btn-dark">ROCK</button></li>
+                  <li class="list-group-item"><button name="choice" value="paper" type="submit" class="btn btn-dark">PAPER</button></li>
+                  <li class="list-group-item"><button name="choice" value="scissors" type="submit" class="btn btn-dark">SCISSORS</button></li>
+                  <li class="list-group-item"><h4 style="text-align:right; margin-right: 30px; ">HUMANITY: {{human_score}}</h4></li>
+                  <li class="list-group-item"><h4 style="text-align:right; margin-right: 30px; ">AI: {{computer_score}}</h4></li>
+                  <li class="list-group-item"><button name="choice" value="clear" type="submit" class="btn btn-dark">Clear Score</button></li>
+                </ul>
+            </form>
+         </div>
+        </div>
+      </div>
+   </div>
+</div>
+{% endblock %}

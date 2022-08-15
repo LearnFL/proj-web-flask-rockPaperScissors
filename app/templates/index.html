@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="intro">
+    <h1>The Epic Game</h1>
+    <h1>Rock Pare Scissors</h1>
+    <h3>AI vs. Humanity</h3>
+</div>
+
+<div class="intro-logo">
+    <i style="color: #31087B;" class="fa-solid fa-hand-back-fist fa-2xl"></i> <i style="color: #FA2FB5;" class="fa-solid fa-hand fa-2xl"></i> <i style="color: #FFC23C;"class="fa-solid fa-hand-scissors fa-2xl"></i>
+</div>
+
+<div class="intro-main-wrapper">
+    <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="intro-main">
+                <p>Register to save your progress. No email necessary.</p>
+
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="intro-main">
+                <!-- <p>Fear Not</p> -->
+                <form action="{{url_for('game')}}">
+                  <button type="submit" class="btn btn-dark .btn-lg"><i style="color: white; margin-right: 10px;" class="fa-solid fa-dragon"></i>Enter The Game</button> 
+                </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</div>
+
+{% endblock %}
