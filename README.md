@@ -2,7 +2,7 @@
 
 #### License
 Feel free to use the code but please keep Authorship Attribution.
-"This app was made by Dennis Rotnov"
+"This app was made by Dennis Rotnov https://github.com/LearnFL"
 
 #### Purpose
 Built very fast, built for fun.
