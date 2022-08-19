@@ -8,7 +8,7 @@ Feel free to use the code but please keep Authorship Attribution.
 Built very fast, built for fun.
 
 #### Process
-Built with Flask
+Built with Flask. A great example of why JavaScript is suted better for this type of applications. Not only would it simplify the design but also it would run on a client side without making constant requests, and that is a deal breaker. 
 
 #### Coded by 
 Dennis Rotnov
