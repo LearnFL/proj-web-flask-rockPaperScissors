@@ -30,5 +30,9 @@ https://aqueous-ocean-49788.herokuapp.com/index
 12. heroku open
 
 #### Screenshot
-![Screen Shot 2022-08-15 at 2 44 14 PM](https://user-images.githubusercontent.com/86169204/184696368-18b44e71-2baa-43d7-a4ef-6aad910d1e09.png)
-![Screen Shot 2022-08-15 at 2 45 03 PM](https://user-images.githubusercontent.com/86169204/184696472-f0b97258-a7bd-4e4a-9d2b-958c4e3d8e43.png)
+Scr<img width="1438" alt="Screen Shot 2022-08-19 at 9 12 12 PM" src="https://user-images.githubusercontent.com/86169204/185723598-310971c5-605c-4c56-8b99-d5711443e9e2.png">
+<img width="1439" alt="Screen Shot 2022-08-19 at 9 13 01 PM" src="https://user-images.githubusercontent.com/86169204/185723635-69c06ae5-1cd4-48aa-8817-374b8fd69ac7.png">
+<img width="1442" alt="Screen Shot 2022-08-19 at 9 13 30 PM" src="https://user-images.githubusercontent.com/86169204/185723654-39864d01-308b-4612-9c01-101c01d82d50.png">
+
+
+
