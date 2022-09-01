@@ -16,9 +16,9 @@ Dennis Rotnov
 https://aqueous-ocean-49788.herokuapp.com/index
 
 #### HEROKU
-1. Procfile >> web: gunicorn app-name:app
+1. Create Procfile and add web: gunicorn app-name:app
 2. requirements.txt, make sure to include gunicorn
-3. runtime.txt >> python-3.10.0 (your version)
+3. Create runtime.txt and add python-3.10.0 (your version)
 4. brew tap heroku/brew && brew install heroku
 5. Heroku login (heroku login -i  if IP is not recognized)
 6. git init
